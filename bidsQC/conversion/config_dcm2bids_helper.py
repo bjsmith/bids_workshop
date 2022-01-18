@@ -6,7 +6,7 @@ group = "sanlab" # This is the name of the group on Talapas to which your accoun
 
 # Directories
 # You don't need to use slashes in the path names, just put the parts of the path in quotes as shown below.
-path_toplevel = os.path.join("home","bsmith16", "sanlab", "shared", "bids_workshop") # folder that contains path_bidsdata and path_conversionfolder
+path_toplevel = os.path.join("/projects","sanlab","bsmith16", "bids_workshop/") # folder that contains path_bidsdata and path_conversionfolder
 path_dicoms = os.path.join(os.sep, "projects", "sanlab", "shared", "REV_examples")
 path_bidsdata = os.path.join(path_toplevel, "bids_data") # path to the folder where the niftis will be put
 path_conversionfolder = os.path.join(path_toplevel, "bidsQC", "conversion") # Contains subject_list.txt, config file, and dcm2bids_batch.py
